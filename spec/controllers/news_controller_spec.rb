@@ -29,11 +29,11 @@ RSpec.describe NewsController, type: :controller do
   # News. As you add validations to News, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
+    { name: "Superman", title: "I saved the day" }
   }
 
   let(:invalid_attributes) {
-    skip("Add a hash of attributes invalid for your model")
+    { name: "", title: "" }
   }
 
   # This should return the minimal set of values that should be in the session

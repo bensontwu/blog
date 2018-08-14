@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  resources :news
+	get 'static_pages/home'
+	get 'static_pages/about'
+	get 'posts', to: 'posts#index'
+	resources :news
   	devise_for :users
-	root 'posts#index'
-
+	root 'static_pages#home'
 	resources :posts
 end
