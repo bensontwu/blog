@@ -40,4 +40,25 @@
 
 .navbar .active {
     background-color: #4CAF50;
-}	
+}
+
+.login ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: right;
+}
+
+.login li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.login li a {
+	text-decoration: none;
+	padding: 10px;
+}
+
+
+
